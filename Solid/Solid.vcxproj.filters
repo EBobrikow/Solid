@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SRP">
+      <UniqueIdentifier>{8c8456a2-226e-4cff-a3b9-e9fde30e6a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SRP">
+      <UniqueIdentifier>{6285ef48-fc1d-4878-a190-476f476e8d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OCP">
+      <UniqueIdentifier>{25de60e5-45b9-4709-a9e2-54219bbae04d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OCP">
+      <UniqueIdentifier>{843b73cf-02a5-43c1-a311-89d21898e1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LSP-ISP">
+      <UniqueIdentifier>{fd29aff6-552b-4624-bf83-4a6a1e06fca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LSP-ISP">
+      <UniqueIdentifier>{23af864b-de51-49d0-a401-67498dff654e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DIP">
+      <UniqueIdentifier>{72ce7a59-9e1e-4792-9f2b-bfb048ae82da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DIP">
+      <UniqueIdentifier>{9ada3455-8cc2-44f8-8d6c-5484e9fafcb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TwinTurbo.cpp">
+      <Filter>Source Files\SRP</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInjection.cpp">
+      <Filter>Source Files\SRP</Filter>
+    </ClCompile>
+    <ClCompile Include="Compressor.cpp">
+      <Filter>Source Files\SRP</Filter>
+    </ClCompile>
+    <ClCompile Include="CarEngine.cpp">
+      <Filter>Source Files\SRP</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleSquare.cpp">
+      <Filter>Source Files\OCP</Filter>
+    </ClCompile>
+    <ClCompile Include="MashineBot.cpp">
+      <Filter>Source Files\LSP-ISP</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Source Files\DIP</Filter>
+    </ClCompile>
+    <ClCompile Include="Solid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Compressor.h">
+      <Filter>Header Files\SRP</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInjection.h">
+      <Filter>Header Files\SRP</Filter>
+    </ClInclude>
+    <ClInclude Include="IAirSystem.h">
+      <Filter>Header Files\SRP</Filter>
+    </ClInclude>
+    <ClInclude Include="IFuelSystem.h">
+      <Filter>Header Files\SRP</Filter>
+    </ClInclude>
+    <ClInclude Include="TwinTurbo.h">
+      <Filter>Header Files\SRP</Filter>
+    </ClInclude>
+    <ClInclude Include="CarEngine.h">
+      <Filter>Header Files\SRP</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSquare.h">
+      <Filter>Header Files\OCP</Filter>
+    </ClInclude>
+    <ClInclude Include="MashineBot.h">
+      <Filter>Header Files\LSP-ISP</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Header Files\DIP</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
