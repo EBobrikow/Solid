@@ -3,7 +3,7 @@
 // Dependancy inversion example
 // classes interact throw the interfaces, not throw dirrect comunication
 
-
+// Interface to communicate with power source. Bench to electricity in our case
 class ITransformator
 {
 public:
@@ -23,6 +23,7 @@ protected:
 	int powerCapacity;
 };
 
+// Interface to communicate with bench. Employer to bench in our case
 class IBenchInterface
 {
 public:
